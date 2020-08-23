@@ -51,18 +51,29 @@ _What does your app do, what is the goal? (passing butter)_
 ## ⚙️ Installation
 Clone this repository to your own device:
 ```bash
-$ git clone https://github.com/deannabosschert/web-app-from-scratch-1920.git
+$ git clone https://github.com/deannabosschert/[folder].git
 ```
 Then, navigate to this folder and run:
 
-```bash
-python -m SimpleHTTPServer 8000`
-```
-, or: 
 
 ```bash
 npm install
 ```
+
+Last,
+
+When it's a serverless project (without NodeJS),
+
+```bash
+python -m SimpleHTTPServer 8000`
+```
+
+If not,
+
+```bash
+npm run dev
+```
+
 
 #### Dependencies
 ```json
@@ -95,23 +106,8 @@ _How does flowed interaction through the application? (interaction diagram)_
 
 ## 👍🏽 Best practices
 
-- Work in branches, even if it's a one-man project. It helps staying focused on one feature until it's finished, and keeps your from doing 10 different things at the same time. Saves you merge conflicts, too.
-- ^ also helps with 'closing' a feature, so you are more likely to move on to the next. Too little time, too much ideas.
-- Commit early, commit often.
-- Make single-purpose commits.
-- Always fix your .gitignore-contents asap; node_modules or the like won't ever be pushed that way. 
-- Styling comes last. It's gonna change anyways so most of the time, it's better to fix the technical stuff first.
-- Don't use declarations in the global scope.
-- Start your project with writing down the future function names (pre-actors, basically).
-- Make your own template for your readme
-- Google, google, google. 99% of the time, it'll get you to the solution of your problem.
-- Set timers for solving problems that aren't super relevant in the current sprint but you do would like to work on; 25 mins tops, otherwise you'll be stuck with this for too long.
-- Make an actor diagram halfway through, it's a great reminder to refactor the code.
-- Explicitly limit the scope of your functions
-- Remember that most problems/features that have to do with the UI, can be fixed with mainly CSS.
-- Do not use .innerHTML
-- If there's an error, walk through your code from the top/beginning; explain it to your rubber ducky and state where certain data is passed.
-- Implement useful error handling.
+- Any tips applicable to this course or project
+
 
 ## 🗃 Data
 
@@ -170,14 +166,14 @@ Goal: xxx
 
 ### Rubric
 
-[Rubric- detailed rating of my project](https://github.com/deannabosschert/template/wiki/Rubric)
-![rubric](https://github.com/deannabosschert/template/blob/master/src/img/rubric.png)
+[Rubric- detailed rating of my project](https://github.com/deannabosschert/course/wiki/Rubric)
+![rubric](https://github.com/deannabosschert/course/blob/master/src/img/rubric.png)
 
 ## ℹ️ Resources
 
 ### Credits
 
-- Our superamazingteachers at the [minor WebDev @CMD](https://github.com/cmda-minor-web/)
+- Our superamazingteachers at the [minor WebDev @CMD](https://github.com/course/)
 
 ### Small inspiration sources
 
@@ -187,5 +183,5 @@ Goal: xxx
 ## 🗺️ License
 
 Author: [Deanna Bosschert](https://github.com/deannabosschert) , license by
-[MIT](https://github.com/deannabosschert/web-app-from-scratch-1920/blob/master/LICENSE)
+[MIT](https://github.com/deannabosschert/project/blob/master/LICENSE)
 
